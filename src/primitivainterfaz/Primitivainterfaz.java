@@ -106,7 +106,7 @@ public class Primitivainterfaz extends JFrame implements ActionListener {
                 }
                 CBlista.addItem(combinacion.toString());
             } else {
-                JOptionPane.showMessageDialog(this, "Selecciona exactamente 6 números.");
+                JOptionPane.showMessageDialog(this, "Selecciona exactamente 6 números, ni uno más ni uno menos.");
             }
         }
     }
